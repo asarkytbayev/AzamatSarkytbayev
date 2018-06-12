@@ -5,10 +5,6 @@
   top: 0;
 }
 
-p.fancy {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
 .topnav a {
   float: left;
   color: white;
@@ -23,4 +19,33 @@ p.fancy {
 
 .topnav a.active {
     background-color: black;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 16px;
+  position: sticky;
+  bottom: 0;
+  color: white;
+  background-color: gray;
+}
+
+/* .flex_container_div {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+p {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
 }
