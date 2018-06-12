@@ -1,0 +1,26 @@
+.topnav {
+  overflow: hidden;
+  background: gray;
+  position: sticky;
+  top: 0;
+}
+
+p.fancy {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: silver;
+}
+
+.topnav a.active {
+    background-color: black;
+}
