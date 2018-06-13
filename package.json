@@ -1,0 +1,13 @@
+{
+  "name": "hello",
+  "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.10"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "*"
+  }
+}
