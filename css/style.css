@@ -57,9 +57,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro_text {
-  vertical-align: top;
-  float: right;
+  /* vertical-align: top; */
+  /* float: left; */
   top: 0;
+}
+
+.below_intro {
+  clear: both;
 }
 
 .table {
