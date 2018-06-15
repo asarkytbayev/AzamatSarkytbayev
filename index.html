@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,29 +11,39 @@
   <body>
     <div class="topnav">
       <a class="active" href="index.html">Home</a>
-      <a href="biography.html">Biography</a>
+      <a href="aboutme.html">About me</a>
       <a href="contact.html">Contact</a>
     </div>
-    <h1>
-      Welcome
-    </h1>
-    <p>
-      Hi, my name is Azamat Sarkytbayev. Welcome to my homepage.
-    </p>
-    <p>
-      I am a student at Northeastern University Silicon Valley, studying <a href="http://www.northeastern.edu/siliconvalley/academic_program/align-master-of-science-in-computer-science/" target="_blank">MS Computer Science Align</a>.
-    </p>
+    <div class="intro_text">
+      <img class="selfie" src="/images/selfie.jpg" alt="selfie">
+      <h1>
+        Welcome
+      </h1>
+      <p>
+        Hi, my name is Azamat Sarkytbayev. Welcome to my homepage.
+      </p>
+      <p>
+        I am a student at Northeastern University Silicon Valley, studying <a href="http://www.northeastern.edu/siliconvalley/academic_program/align-master-of-science-in-computer-science/" target="_blank">MS Computer Science Align</a>.
+        Currently, I am a TA for
+        <a href="http://catalog.northeastern.edu/search/?P=CS%205004" target="_blank">CS 5004</a>,
+        <a href="http://catalog.northeastern.edu/search/?P=CS%205006" target="_blank">CS 5006</a> and
+        <a href="http://catalog.northeastern.edu/search/?P=CS%205007" target="_blank">CS 5007</a>
+        classes. You can find
+        my contact information <a href="/contact.html"> here</a>.
+      </p>
+      <p>
+    </div>
     <h2>
       Resume
     </h2>
     <p>
-      You can view my resume <a href="/files/Resume_Azamat_Sarkytbayev.pdf">here</a>.
+      You can view my resume <a href="/files/Resume_Azamat_Sarkytbayev.pdf" target="_blank">here</a>.
     </p>
     <h3>
       Story of my life!
     </h3>
     <p>
-      You can find out more about me checking out my <a href="/biography.html"><b>Biography</b></a>.
+      You can find out more <a href="/aboutme.html"><b>about me</b></a>.
     </p>
     <h4>
       Code samples
@@ -42,7 +52,6 @@
       I also have some code that I'd like to share. Here are some
       <a href="/code.html"><ins>code samples</ins></a>
     </p>
-
     <!-- <script>
       var link = document.querySelector('link[rel=import]');
       var content = link.import.querySelector('#topnav');
