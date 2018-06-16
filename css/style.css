@@ -1,3 +1,12 @@
+html, body {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
 .topnav {
   overflow: hidden;
   background: gray;
@@ -43,14 +52,6 @@
   float: left;
 }
 
-.binary {
-  width: 100%;
-}
-
-p {
-  /* text-align: center; */
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
@@ -79,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px;
 }
 
-
 .period {
   font-size: 30px;
   font-weight: bold;
@@ -87,4 +87,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .my_caption {
   font-style: oblique;
+}
+
+.ccode-button {
+  padding: 5px 5px;
+  background-color: black;
+  opacity: 0.9;
+  width: 100px;
+  color: white;
+}
+
+.active {
+  background-color: red;
 }
