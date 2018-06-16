@@ -8,7 +8,7 @@ Notes:
 contains information about the site and all the links necessary for navigation.
 There are external links to the MS program I'm enrolled in, the courses I am a TA for,
 my resume and some code samples. There's a header with Home, About me and Contact fields
-and a footer.
+and a footer. The picture sometimes is not shown on heroku.
 ![homepage](/images/homepage.jpg)
 
 - About me is a page with basic information about myself.
