@@ -1,6 +1,6 @@
 # <a name="homepage"></a>Personal Homepage: Working with HTML, CSS, JavaScript & JQuery
 
-link to the [Heroku app](https://thawing-earth-95168.herokuapp.com/)!
+link to the [Heroku app](https://azamatsarkytbayev.herokuapp.com/)!
 
 Notes:
 
